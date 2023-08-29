@@ -1,14 +1,14 @@
 [custom]
 
 ruleset=节点选择,https://raw.githubusercontent.com/mazimao123/list/main/GFWlist.list
-ruleset=网易音乐,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list
+#ruleset=网易音乐,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list
 
 custom_proxy_group=节点选择`select`[]自动选择`.*`
 custom_proxy_group=自动选择`url-test`.*`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=日本节点`url-test`(日本)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=非日本分组`url-test`(美国|台湾|香港|新加坡|德国)`http://www.gstatic.com/generate_204`300,,150
 custom_proxy_group=pikpak`select`[]自动选择`[]DIRECT`
-custom_proxy_group=网易音乐`select`[]DIRECT`(网易|音乐|解锁|Music|NetEase)`
+#custom_proxy_group=网易音乐`select`[]DIRECT`(网易|音乐|解锁|Music|NetEase)`
 
 enable_rule_generator=true
 overwrite_original_rules=true
